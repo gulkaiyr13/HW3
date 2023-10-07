@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Shape {
+abstract class Shape {
+    private String name;
+    public Shape(String name) {
+        this.name = name;
+    }
+    public abstract double getArea();
+    public abstract double getPerimeter();
+    public String getName() {
+        return name;
+    }
 }
